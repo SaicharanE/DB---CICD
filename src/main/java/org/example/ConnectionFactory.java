@@ -8,9 +8,9 @@ public class ConnectionFactory {
 
     static {
         try {
-            String jdbcURL = "jdbc:mysql://localhost:3306/testdb";
-            String username = "root";
-            String password = "your_password_here"; // replace with actual
+            String jdbcURL = "jdbc:mysql://localhost:3306/testdb"; // Replace 'testdb' with your database name
+            String username = "root"; // Replace with your MySQL username
+             String password = "Sai@9505";// replace with actual
             connection = DriverManager.getConnection(jdbcURL, username, password);
         } catch (Exception e) {
             e.printStackTrace();
